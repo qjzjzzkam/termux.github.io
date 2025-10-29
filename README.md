@@ -90,7 +90,10 @@ Post Content
 3. Ensure that the first paragraph of the post is a just a short description of the post since that text will show in the posts list for the category. This is done by setting `show_excerpts` to `true` in [`_config.yml`](_config.yml) and used by [`category.html`](_includes/category.html). Check [jekyll docs](https://jekyllrb.com/docs/posts/#post-excerpts) for more info.
 
 4. Each post of the site must have the `page_ref` key in its front matter for its unique absolute path on the site (not local path) without the language prefix to find alternate translations of a page. All translations must have the same `page_ref` and should equal the english file name. This allows alternate translations to have different language specific filenames, but the same reference to allow site language change and search engine indexing via sitemaps.xml to be added later. For example, `_posts/en/general/1970-01-01-post-title.md` file should have `page_ref: /posts/general/1970/01/01/post-title.html` and so should any of its translations.
-##
+  start https://www.google.com
+
+
+
 
 
 [termux.dev]: https://termux.dev
